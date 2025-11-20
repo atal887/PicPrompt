@@ -10,26 +10,25 @@ Organized full-stack folder structure
 Easy to run locally
 
 📂 Project Structure
-project/
+PicPrompt/
 │
-├── client/                    # React Frontend
+├── client/                     # React Frontend
 │   ├── public/
-│   ├── src/
-│   │   ├── assets/            # Icons, logos, images
-│   │   ├── components/        # All UI components
-│   │   ├── pages/             # Home, Result, BuyCredit
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   └── package.json
+│   └── src/
+│       ├── assets/             # Images, icons
+│       ├── components/         # Reusable UI components
+│       ├── pages/              # Home, Result, BuyCredit pages
+│       ├── App.jsx
+│       └── main.jsx
 │
-├── server/                    # Node.js Backend
+├── server/                     # Node.js Backend
 │   ├── controllers/
 │   ├── routes/
 │   ├── utils/
-│   ├── index.js
-│   └── package.json
+│   └── index.js
 │
 └── README.md
+
 
 🛠️ How to Run the Project
 
